@@ -1,0 +1,9 @@
+.contenedorGeneral { padding: 20px 16px; border-right: 1px solid var(--border); background: var(--panel-bg); }
+.encabezado { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+.titulo, .descripcion { margin: 0; }
+.titulo { color: var(--text-h); font-size: 13px; font-weight: 650; }
+.etiqueta { padding: 3px 6px; border: 1px solid var(--border); border-radius: 4px; color: var(--muted); font-size: 10px; }
+.descripcion { margin-top: 8px; color: var(--muted); font-size: 12px; line-height: 1.5; }
+.lista { display: grid; gap: 8px; margin-top: 24px; }
+.elemento { display: flex; align-items: center; gap: 10px; padding: 10px; border: 1px solid var(--border); border-radius: 6px; color: var(--text-h); font-size: 13px; }
+.punto { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }

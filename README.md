@@ -1,16 +1,51 @@
-# React + Vite
+# FLOW — Visual Application Architect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FLOW es una herramienta para planificar visualmente el comportamiento de aplicaciones mediante workflows compuestos por nodos.
 
-Currently, two official plugins are available:
+## Estado actual
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+La base inicial incluye una interfaz de trabajo visual con topbar, biblioteca de nodos, canvas central con cuadrícula, inspector vacío y panel inferior de ejecución. Estas regiones son actualmente visuales: no hay edición, selección, conexiones ni simulación implementadas.
 
-## React Compiler
+## Tecnologías
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React, Vite, JavaScript y JSX
+- CSS Modules y CSS global
+- pnpm
 
-## Expanding the ESLint configuration
+## Instalación y ejecución
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+pnpm install
+pnpm dev
+```
+
+Validaciones:
+
+```bash
+pnpm lint
+pnpm build
+```
+
+## Estructura
+
+```text
+src/
+├── components/
+│   ├── executionpanel/
+│   ├── label/
+│   ├── nodecanvas/
+│   ├── nodeinspector/
+│   ├── nodelibrary/
+│   └── topbar/
+├── pages/home/
+├── App.jsx
+├── App.module.css
+├── index.css
+└── main.jsx
+```
+
+Cada componente reutilizable tiene su carpeta y su CSS Module. Las páginas viven en `src/pages/`, los estilos globales en `src/index.css` y los componentes utilizan named exports e imports relativos.
+
+## Visión futura
+
+Quedan pendientes el editor basado en nodos, drag & drop, conexiones, inspector editable, ejecución de workflows, undo/redo, persistencia, importación y ejemplos precargados. Estas funcionalidades no forman parte de la base inicial.

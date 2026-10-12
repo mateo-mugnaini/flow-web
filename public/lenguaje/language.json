@@ -1,0 +1,62 @@
+{
+  "es": {
+    "topbar": {
+      "productName": "FLOW",
+      "productDescription": "Arquitecto visual de aplicaciones",
+      "workspace": "Espacio de trabajo sin título",
+      "actionsComingSoon": "Las acciones del espacio de trabajo estarán disponibles próximamente"
+    },
+    "nodeLibrary": {
+      "title": "Biblioteca de nodos",
+      "types": "4 tipos",
+      "description": "Bloques para construir tu workflow.",
+      "event": "Evento",
+      "action": "Acción",
+      "condition": "Condición",
+      "result": "Resultado"
+    },
+    "nodeCanvas": {
+      "title": "Comenzá a diseñar tu flujo",
+      "description": "Elegí un nodo de la biblioteca para comenzar a construir tu workflow."
+    },
+    "nodeInspector": {
+      "title": "Inspector",
+      "empty": "Seleccioná un nodo para inspeccionar sus propiedades."
+    },
+    "executionPanel": {
+      "title": "Ejecución",
+      "description": "Las herramientas de simulación y depuración aparecerán aquí.",
+      "status": "Inactivo"
+    }
+  },
+  "en": {
+    "topbar": {
+      "productName": "FLOW",
+      "productDescription": "Visual Application Architect",
+      "workspace": "Untitled workspace",
+      "actionsComingSoon": "Workspace actions coming soon"
+    },
+    "nodeLibrary": {
+      "title": "Node Library",
+      "types": "4 types",
+      "description": "Building blocks for your workflow.",
+      "event": "Event",
+      "action": "Action",
+      "condition": "Condition",
+      "result": "Result"
+    },
+    "nodeCanvas": {
+      "title": "Start designing your flow",
+      "description": "Choose a node from the library to begin building your workflow."
+    },
+    "nodeInspector": {
+      "title": "Inspector",
+      "empty": "Select a node to inspect its properties."
+    },
+    "executionPanel": {
+      "title": "Execution",
+      "description": "Simulation and debugging tools will appear here.",
+      "status": "Idle"
+    }
+  }
+}

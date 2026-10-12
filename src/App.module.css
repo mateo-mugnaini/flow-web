@@ -1,0 +1,4 @@
+.contenedorGeneral {
+  min-height: 100svh;
+  display: flex;
+}

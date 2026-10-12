@@ -1,0 +1,10 @@
+.contenedorGeneral { min-height: 68px; display: flex; align-items: center; justify-content: space-between; gap: 24px; padding: 12px 24px; border-bottom: 1px solid var(--border); background: var(--panel-bg); box-sizing: border-box; }
+.marca, .subtitulo { margin: 0; }
+.marca { color: var(--text-h); font-size: 18px; font-weight: 700; letter-spacing: .08em; }
+.subtitulo, .acciones { color: var(--muted); font-size: 12px; }
+.espacioTrabajo { display: flex; align-items: center; gap: 8px; color: var(--text-h); font-size: 13px; }
+.indicador { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.controles { display: flex; align-items: center; gap: 12px; }
+.selectorIdioma { padding: 5px 8px; border: 1px solid var(--border); border-radius: 4px; background: transparent; color: var(--text-h); font: inherit; font-size: 11px; cursor: pointer; }
+.selectorIdioma:hover, .selectorIdioma:focus-visible { border-color: var(--accent); outline: 2px solid var(--accent-bg); outline-offset: 2px; }
+@media (max-width: 640px) { .contenedorGeneral { align-items: flex-start; flex-direction: column; gap: 8px; } .acciones { display: none; } }

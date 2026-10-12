@@ -1,0 +1,4 @@
+.contenedorGeneral { padding: 20px 16px; border-left: 1px solid var(--border); background: var(--panel-bg); }
+.titulo { margin: 0; color: var(--text-h); font-size: 13px; font-weight: 650; }
+.vacio { display: grid; min-height: 180px; place-items: center; margin-top: 28px; padding: 16px; border: 1px dashed var(--border); border-radius: 6px; text-align: center; }
+.vacio p { margin: 0; color: var(--muted); font-size: 12px; line-height: 1.5; }

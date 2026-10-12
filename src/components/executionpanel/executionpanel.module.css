@@ -1,0 +1,6 @@
+.contenedorGeneral { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 14px 24px; border-top: 1px solid var(--border); background: var(--panel-bg); }
+.titulo, .descripcion { margin: 0; }
+.titulo { color: var(--text-h); font-size: 13px; font-weight: 650; }
+.descripcion, .estado { color: var(--muted); font-size: 12px; }
+.descripcion { margin-top: 3px; }
+.estado { padding: 4px 8px; border: 1px solid var(--border); border-radius: 4px; }

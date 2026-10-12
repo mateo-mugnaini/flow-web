@@ -1,0 +1,4 @@
+.contenedorGeneral { min-height: 100svh; display: flex; flex: 1; flex-direction: column; background: var(--bg); color: var(--text); }
+.areaTrabajo { display: grid; flex: 1; grid-template-columns: 220px minmax(0, 1fr) 260px; min-height: 0; }
+@media (max-width: 900px) { .areaTrabajo { grid-template-columns: 180px minmax(0, 1fr); } }
+@media (max-width: 640px) { .areaTrabajo { display: flex; flex-direction: column; } }
